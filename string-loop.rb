@@ -1,3 +1,3 @@
 "Ikechukwuyeremefuna".split("").each do |i|
-	puts i
-	end
+ 	puts i.upcase
+  	end
