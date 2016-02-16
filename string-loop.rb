@@ -1,3 +1,5 @@
+count = 1
 "Ikechukwuyeremefuna".split("").each do |i|
- 	puts i.upcase
-  	end
+ puts "#{count} #{i.upcase}"
+ count +=1 
+ end
