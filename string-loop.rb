@@ -1,5 +1,7 @@
+name = "Ikechukwuyeremefuna"
+namesplit = name.split("")
 count = 1
-"Ikechukwuyeremefuna".split("").each do |i|
- puts "#{count} #{i.upcase}"
+while count <= name.length
+ puts "#{count} #{namesplit[(count-1)].upcase}"
  count +=1 
- end
+end
